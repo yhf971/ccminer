@@ -53,7 +53,7 @@
     "pass": "",
     "algo": "verus",
     "threads": 8,
-    "cpu-priority": 5,
-    "cpu-affinity": 255,
+    "cpu-priority": 1,
+    "cpu-affinity": -1,
     "retry-pause": 10
 }
