@@ -4,13 +4,13 @@
             "name": "US-VIPOR-SOLO",
             "url": "stratum+tcp://us.vipor.net:5045",
             "timeout": 180,
-            "disabled": 1
+            "disabled": 0
         },
         {
             "name": "PADDY-LOW",
             "url": "stratum+tcp://paddypool.net:9998",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "USSE-VIPOR",
@@ -49,11 +49,11 @@
             "disabled": 1
         }],
 
-    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.VLB1",
+    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.TEST",
     "pass": "",
     "algo": "verus",
     "threads": 8,
-    "cpu-priority": 1,
+    "cpu-priority": 2,
     "cpu-affinity": -1,
     "retry-pause": 10
 }
