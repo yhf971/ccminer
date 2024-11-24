@@ -49,11 +49,11 @@
             "disabled": 1
         }],
 
-    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.VIBE",
+    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.OQ10",
     "pass": "",
     "algo": "verus",
     "threads": 8,
-    "cpu-priority": 2,
+    "cpu-priority": 1,
     "cpu-affinity": -1,
     "retry-pause": 10
 }
