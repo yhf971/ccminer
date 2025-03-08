@@ -1,22 +1,22 @@
 {
-    "pools":
-        [{
+    "pools": [
+        {
             "name": "US-VIPOR",
             "url": "stratum+tcp://us.vipor.net:5040",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "USSE-VIPOR",
             "url": "stratum+tcp://usse.vipor.net:5040",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "NA-LUCKPOOL",
             "url": "stratum+tcp://na.luckpool.net:3960",
             "timeout": 180,
-            "disabled": 1
+            "disabled": 0
         },
         {
             "name": "AIH-LOW",
@@ -41,14 +41,12 @@
             "url": "stratum+tcp://us.cloudiko.io:9999",
             "timeout": 180,
             "disabled": 1
-        }],
-
-    "user": "REiPznUK8ApoQbtLhExYsj9GY5rb67Nj3M.Beta",
-    "pass": "",
+        }
+    ],
+    "user": "RQJGcvqboXdDme3r2VKzaYViUnj6P8yQ1z.Donation",
     "algo": "verus",
     "threads": 8,
     "cpu-priority": 1,
-    "cpu-affinity": -1,
     "retry-pause": 10,
     "api-allow": "192.168.0.0/16",
     "api-bind": "0.0.0.0:4068"
